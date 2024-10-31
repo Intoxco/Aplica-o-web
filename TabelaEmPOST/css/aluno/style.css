@@ -1,0 +1,38 @@
+table{
+    border:1px,solid;
+
+}
+#tabela{
+    font-size:20px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+table{
+    width:80%;
+    
+}
+h1{
+    text-align:center;
+}
+td,th,table{
+    text-align:center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td:not(td:first-child),tr{
+    height:100%;
+}
+input{
+    height:100%;
+    width:98%;
+    font-size:20px;
+}
+
+button{
+    font-size:30px;
+}
+#botao{
+    text-align:end;
+    margin: 30px 170px 0px 0px;
+}
