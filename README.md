@@ -1,6 +1,6 @@
 # Aplica-o-web
 
-Alunoras: Rafael Boldt e Luciana Ramos
+Alunos Rafael Boldt e Luciana Ramos
 
 Participação individual
 Rafael:códigos php e html do administrador(cadastro); tabela de horários do aluno;
