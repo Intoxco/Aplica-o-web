@@ -9,7 +9,7 @@ if (!isset($_SESSION['usuario'])) {
 if ($_SESSION[$_SESSION["usuario"]]["funcao"] == "aluno") {
     $mensagem = "Você não tem permissão para acessar esta página.";
     $botao = "Ir para minha área";
-    $urlBotao = "../aluno/aluno.php";
+    $urlBotao = "../aluno/view-aluno.php";
     $acaoBotao = "deslogar";
 } else if($_SESSION['usuario'] === 'Admin'){
     $mensagem = "Administradores não devem utilizar esta página";
