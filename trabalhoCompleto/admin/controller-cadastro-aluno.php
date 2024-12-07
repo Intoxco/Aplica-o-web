@@ -32,6 +32,6 @@ if ($_POST["envio"]== "true"){
     $_SESSION[$_POST["alunoLogin"]] = ["senha" => $_POST["alunoSenha"], "nome"=> $_POST["alunoNome"],
                                   "idade"=>$_POST["alunoIdade"],"alunoResponsavel"=>$_POST["alunoResponsavel"],
                                   "turma"=>$_POST["alunoTurma"],"funcao"=>"aluno"];
-    header("Location: cadastro-aluno.php");
+    header("Location: controller-cadastro-aluno.php");
 }
 require "view-cadastro-aluno.php";

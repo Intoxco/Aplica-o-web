@@ -50,4 +50,4 @@ function salvarDados($i,$j):void{
         }
     }
 }
-require 'aluno-tabela.view.php';
+require 'view-aluno-tabela.php';

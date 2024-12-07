@@ -6,6 +6,6 @@ $_SESSION["logado"] = false;
 
 $_SESSION['message'] = 'Você foi desconectado com sucesso.';
 
-header("Location: login.php");
+header("Location: view-login.php");
 exit();
 ?>
