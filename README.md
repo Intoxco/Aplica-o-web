@@ -32,7 +32,7 @@ Execução passo a passo:
 9-Recomendamos o uso de uma virtual host pras rotas transparentes funcionare, segue o tutorial de como fazer no windows:
 
   1. Entre em C:\xampp\apache\conf\extra
-  2. Então, edite o arquivo httpd-vhosts.conf em qualquer IDE:
+  2. Edite o arquivo httpd-vhosts.conf em qualquer IDE:
   3. Adicione as seguintes linhas ao final do arquivo e salve:
     <VirtualHost *:80>
     DocumentRoot "C:\xampp\htdocs\trabalhoComBanco"
@@ -44,7 +44,7 @@ Execução passo a passo:
     C:\Windows\System32\drivers\etc\hosts
     Importante: abra esse arquivo como administrador. Edite o arquivo no VS Code ou uma IDE,
     pois ele disponibiliza um botão para "Tentar como Admin". Se você abrir no Notepad, o
-    programa irá tentar salvar com a extensão .txt... isso não deve ocorrer.
+    programa irá tentar salvar com a extensão .txt e isso não deve ocorrer.
   5. Agora, com o arquivo hosts aberto você irá escrever a seguinte linha ao final do arquivo:
     127.0.0.1 trabalhoComBanco.test
   6. Depois de salvar tudo, reinicie o Apache pelo painel do Xampp.
