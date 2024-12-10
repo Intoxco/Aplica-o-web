@@ -9,15 +9,25 @@ A parte de cadastro e visualização dos horários foi desenvolvida em conjunto 
 
 
 Execução passo a passo:
+
 1-Baixe o conteúdo desse repositório
+
 2-Instale o Xampp (https://www.apachefriends.org/pt_br/index.html)
+
 3-Instale o Composer (https://getcomposer.org)
+
 4-Inicie o Apache e o MySql
+
 5-Coloque a pasta trabalhoComBanco na pasta htdocs no xampp
+
 6-Abra o http://localhost/phpmyadmin e crie um banco de dados chamado trabalhophp, então importe o arquivo disponibilizado no repositório
+
 7-Abra o VSCode(ou sua IDE) de preferência, e abra a pasta trabalhoComBanco
+
 8-Aperte ctrl + ' e digite composer install no terminal
+
 9-Recomendamos o uso de uma virtual host pras rotas transparentes funcionare, segue o tutorial de como fazer no windows:
+
   1. Entre em C:\xampp\apache\conf\extra
   2. Então, edite o arquivo httpd-vhosts.conf em qualquer IDE:
   3. Adicione as seguintes linhas ao final do arquivo e salve:
