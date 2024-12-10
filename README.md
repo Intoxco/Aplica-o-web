@@ -6,7 +6,7 @@ Participação individual
 
 Rafael:banco de dados; espaço do administrador(cadastro aluno e professor), incluindo banco de dados;
 
-Luciana: A maioria do css, parte do cadastro de notas no professor e visualização do boletim do aluno; roteamento;
+Luciana: A maioria do css, cadastro de notas no professor e visualização do boletim do aluno; roteamento;
 
 A parte de cadastro e visualização dos horários foi desenvolvida em conjunto pelos dois alunos;
 
