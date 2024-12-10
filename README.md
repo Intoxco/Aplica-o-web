@@ -1,16 +1,32 @@
 # Aplica-o-web
 
-Alunos Rafael Boldt e Luciana Ramos
+Primeira coisa, instala o composer, aperta ctrl + ' no vscode e digita composer install no terminal, vai instalar tudo do roteamento.
+depois: 
+1. Entre em C:\xampp\apache\conf\extra
+2. Então, edite o arquivo httpd-vhosts.conf em qualquer IDE:
+4. Adicione as seguintes linhas ao final do arquivo e salve:
+5. 
+<VirtualHost *:80>
+DocumentRoot "C:\xampp\htdocs\trabalhoComBanco"
+ServerName trabalhoComBanco.test
+<Directory "C:\xampp\htdocs\trabalhoComBanco">
+</Directory>
+</VirtualHost>
 
-Participação individual
-Rafael:códigos php e html do administrador(cadastro); tabela de horários do aluno;
-Luciana: A maioria do css,login, arquivo aluno.php, a parte inteira do professor,navbar(include)
 
-Execução passo a passo:
-1-Baixe o conteúdo desse repositório
-2-Instale o Xampp
-3-Adicione a pasta trabalhoCompleto à pasta htdocs presente nos arquivos relacionados ao xampp
-4-Execute a aplicação localmente no navegador (http://localhost/trabalhoCompleto/login/login.php) 
+6. Agora, acesse Windows > Search > Run e cole a seguinte linha:
+   
+C:\Windows\System32\drivers\etc\hosts
 
-Bugs:
-1-É necessário o erro acontecer duas vezes no login para ele mostrar a mensagem de erro e as vezes mostra mensagem de erro direto após dar logout
+Importante: abra esse arquivo como administrador. Edite o arquivo no VS Code ou uma IDE,
+pois ele disponibiliza um botão para "Tentar como Admin". Se você abrir no Notepad, o
+programa irá tentar salvar com a extensão .txt... isso não deve ocorrer.
+
+8. Agora, com o arquivo hosts aberto você irá escrever a seguinte linha ao final do arquivo:
+127.0.0.1 trabalhoComBanco.test
+   
+
+10. Depois de salvar tudo, reinicie o Apache pelo painel do Xampp.
+    
+11. Agora, entre em http://trabalhoComBanco.test no navegador. Ao entrar, o navegador deve
+carregar o seu projeto e as rotas transparentes devem funcionar corretamente.
