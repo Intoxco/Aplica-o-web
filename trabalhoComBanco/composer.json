@@ -1,0 +1,15 @@
+{
+    "name": "cabrd/trabalho-com-banco",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luciana Souza, Rafael Boldt"
+        }
+    ],
+    "autoload": {
+        "classmap": ["./"]
+    },
+    "require": {
+        "pecee/simple-router": "^5.4"
+    }
+}
