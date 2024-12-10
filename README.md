@@ -36,11 +36,10 @@ Execução passo a passo:
   3. Adicione as seguintes linhas ao final do arquivo e salve:
     <VirtualHost *:80>
     DocumentRoot "C:\xampp\htdocs\trabalhoComBanco"
-    ServerName seu-projeto.test
+    ServerName trabalhoComBanco.test
     <Directory "C:\xampp\htdocs\trabalhoComBanco">
     </Directory>
     </VirtualHost>
-    Importante: substituir seu_projeto com a pasta do seu projeto.
   4. Agora, acesse Windows > Search > Run e cole a seguinte linha:
     C:\Windows\System32\drivers\etc\hosts
     Importante: abra esse arquivo como administrador. Edite o arquivo no VS Code ou uma IDE,
